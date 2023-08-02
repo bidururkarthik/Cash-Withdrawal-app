@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.cardcontainer {
+  background-color: #150b3e;
+  background-size: cover;
+  height: 410px;
+  width: 400px;
+  padding: 18px;
+  border-radius: 7px;
+}
+
+.userprofilecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.UserIconcontainer {
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.username {
+  color: #d4d2db;
+  font-family: 'Roboto';
+}
+
+.yourbalance {
+  color: #585076;
+  font-family: 'Roboto';
+}
+
+.Amountheading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.moneydetailscontainer {
+  display: flex;
+  justify-content: space-between;
+}

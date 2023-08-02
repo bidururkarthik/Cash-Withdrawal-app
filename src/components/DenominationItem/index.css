@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.button {
+  background-color: transparent;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: white;
+  padding: 5px;
+  color: white;
+  font-family: 'Roboto';
+  height: 26px;
+  width: 100px;
+}
+
+.firstbuttoncontainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
